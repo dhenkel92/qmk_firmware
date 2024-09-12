@@ -47,6 +47,11 @@
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 3
 
+/* Custom values */
+#undef TAPPING_TERM
+#define TAPPING_TERM 200
+#define IGNORE_MOD_TAP_INTERRUPT
+
 /* disable these deprecated features by default */
 #define NO_ACTION_MACRO
 #define NO_ACTION_FUNCTION
